@@ -1,15 +1,18 @@
-# Scenario: Command Injection
+# Scenario: SSTI(Server Side Template Injection)
 
 **Size:** Small
 
 **Difficulty:** Easy
 
-**Command:** `$ cd ./terraform; terraform init; terraform apply`
+**Command:** 
+- creation: `$ cd ./terraform; terraform init; terraform apply`
+- destruction: `$ cd ./terraform; terraform destroy`
 
 ## Scenario Resources
 
-* EC2 x 1
-* Secret x 1
+- EC2 x 1
+- EIP x 1
+- Secret x 1
 
 ## Start of Scenario
 
