@@ -4,11 +4,14 @@
 
 **Difficulty:** Easy
 
-**Command:** `$ cd ./terraform; terraform init; terraform apply`
+**Command:** 
+- creation: `$ cd ./terraform; terraform init; terraform apply`
+- destruction: `$ cd ./terraform; terraform destroy`
 
 ## Scenario Resources
 
 * EC2 x 1
+* EIP x 1
 * S3 x 1
 
 ## Start of Scenario
