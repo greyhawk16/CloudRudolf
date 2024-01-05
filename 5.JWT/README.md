@@ -1,5 +1,4 @@
-# Scenario: FD-SSM (File Download - Systems Manager)
-
+# Scenario: JWT
 **Size:** Medium
 
 **Difficulty:** Moderate
@@ -10,24 +9,25 @@
 
 ## Scenario Resources
 
-- EC2 x 2
-- IAM user x 1
-- Systems Manager x 1
+- EC2 x 1
+- Secret x 1
+- Lambda x 2
+- IAM Role X 1
 
 ## Start of Scenario
 
 - Public IP Address of an EC2 server which runs a web application
-- http://printedIP:8080
+- http://printedIP:8080/jwt-login
 
 ## Scenario Goal(s)
 
-Get the flag in the FLAG ec2.
+Get the value of a secret(flag) used in the lambda function.
 
 ## Summary
 
-As an outsider, your objective is to retrieve the /.aws/credentials file using the FileDownload vulnerability on the web. By utilizing the run command, you can gain access to a web EC2 shell. Create an AMI image of the FLAG EC2 instance and execute the command.
+Modulating JWT of user, you can access the admin page and find a textfield where command injection is possible. Obtaining the reverse shell, check the roles and polices assigned to the server. Use the assigned policy to find a function that seems important, and get the value of the secret used in the function.
 
 ## Exploitation Route(s)
 
-![Alt text](./FD-SSM.png)
+
 
