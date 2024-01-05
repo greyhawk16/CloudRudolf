@@ -5,8 +5,8 @@
 **Difficulty:** Easy
 
 **Command:** 
-- creation: `$ cd ./terraform; terraform init; terraform apply`
-- destruction: `$ cd ./terraform; terraform destroy`
+- Creation: `$ cd ./terraform; terraform init; terraform apply`
+- Destruction: `$ cd ./terraform; terraform destroy`
 
 ## Scenario Resources
 

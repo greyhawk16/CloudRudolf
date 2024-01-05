@@ -6,8 +6,8 @@
 
 2. Prepare an EC2 instance which will serve as attacker's server
    - Allow TCP traffic from victim's server coming to port `4444` in Security group
-   - open port `4444` using `nc`
-   -  you may use other port instead of `4444`
+   - Open port `4444` using `nc`
+   - You may use other port instead of `4444`
 
     ```bash
     nc -lvp 4444
