@@ -17,22 +17,22 @@ each scenario has a different environment...
 - <img src="https://img.shields.io/badge/Project Encoding-%23121011?style=for-the-badge"><img src="https://img.shields.io/badge/UTF 8-EA2328?style=for-the-badge">
 
 
-## 👉Requirements 
+## 👉Requirements to Start
 
 1. Terraform
    
-   -> You can build your infra with simple commands
+   -> You can build your infra with simple commands.
    
    -> https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
    
 2. AWS CLI
    
-   -> you can control multiple AWS services from the command line and automate them through scripts
+   -> you can control multiple AWS services from the command line and automate them through scripts.
    
    -> https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/getting-started-install.html
 
 
-## 👉Scenarios (Order of Difficulty)
+## 👉Scenarios (Ordered of Difficulty)
 ### CMD-Inj
 `$ cd 3.CMD-Inj`
 
