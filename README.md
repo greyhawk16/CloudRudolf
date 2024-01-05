@@ -33,7 +33,7 @@ each scenario has a different environment...
 
 
 ## 👉Scenarios (Order of Difficulty)
-##### CMD-Inj
+#### CMD-Inj
 `$ cd 3.CMD-Inj`
 
 Size: Small
@@ -44,7 +44,7 @@ Summary: You start as an outsider. Exploit web application vulnerable to command
 
 [Visit Scenario Page](https://github.com/xorverbin/CloudRudolf/tree/main/3.CMD-Inj)
 
-##### SSTI
+#### SSTI
 `$ cd 4.SSTI`
 
 Size: Small
@@ -55,7 +55,9 @@ Summary: You start as an outsider. Exploit web application vulnerable to SSTI us
 
 [Visit Scenario Page](https://github.com/xorverbin/CloudRudolf/tree/main/4.SSTI)
 
-##### JWT
+---
+
+#### JWT
 `$ cd 5.JWT`
 
 Size: Medium
@@ -66,7 +68,9 @@ Summary: Modulating JWT of user, you can access the admin page and find a textfi
 
 [Visit Scenario Page](https://github.com/xorverbin/CloudRudolf/tree/main/5.JWT)
 
-##### FD-SSM
+---
+
+#### FD-SSM
 `$ cd 5.JWT`
 
 Size: Medium
@@ -77,7 +81,9 @@ Summary: As an outsider, your objective is to retrieve the /.aws/credentials fil
 
 [Visit Scenario Page](https://github.com/xorverbin/CloudRudolf/tree/main/1.FD-SSM)
 
-##### SSRF-APIGW
+---
+
+#### SSRF-APIGW
 `$ cd 5.JWT`
 
 Size: Medium
