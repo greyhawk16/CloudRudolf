@@ -73,7 +73,7 @@ each scenario has a different environment...
 ---
 
 ### FD-SSM
-`$ cd 5.JWT`
+`$ cd 1.FD-SSM`
 
 **Size:** Medium
 
@@ -86,7 +86,7 @@ each scenario has a different environment...
 ---
 
 ### SSRF-APIGW
-`$ cd 5.JWT`
+`$ cd 2.SSRF-APIGW`
 
 **Size:** Medium
 
