@@ -33,7 +33,7 @@ each scenario has a different environment...
 
 
 ## 👉Scenarios (Order of Difficulty)
-#### CMD-Inj
+### CMD-Inj
 `$ cd 3.CMD-Inj`
 
 **Size:** Small
@@ -46,7 +46,7 @@ each scenario has a different environment...
 
 ---
 
-#### SSTI
+### SSTI
 `$ cd 4.SSTI`
 
 **Size:** Small
@@ -59,7 +59,7 @@ each scenario has a different environment...
 
 ---
 
-#### JWT
+### JWT
 `$ cd 5.JWT`
 
 **Size:** Medium
@@ -72,7 +72,7 @@ each scenario has a different environment...
 
 ---
 
-#### FD-SSM
+### FD-SSM
 `$ cd 5.JWT`
 
 **Size:** Medium
@@ -85,7 +85,7 @@ each scenario has a different environment...
 
 ---
 
-#### SSRF-APIGW
+### SSRF-APIGW
 `$ cd 5.JWT`
 
 **Size:** Medium
