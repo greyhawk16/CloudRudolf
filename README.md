@@ -111,7 +111,7 @@ Default output format [None]:
 ```
 
 
-- When you're done with the scenario, you'll have to destroy the terraform of that scenario. If you don't destroy it, the cost of your aws account will continue to be incurred.
+- When you're done with the scenario, you'll have to destroy the infra of that scenario. If you don't destroy it, the cost of your aws account will continue to be incurred.
 ```
 $ terraform destroy //Remove all resources managed by terraform
 ```
