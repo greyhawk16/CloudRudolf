@@ -36,22 +36,24 @@ each scenario has a different environment...
 #### CMD-Inj
 `$ cd 3.CMD-Inj`
 
-Size: Small
+**Size:** Small
 
-Difficulty: Easy
+**Difficulty:** Easy
 
-Summary: You start as an outsider. Exploit web application vulnerable to command injection. Enumerate through S3 buckets to find and retrieve flag.txt.
+**Summary:** You start as an outsider. Exploit web application vulnerable to command injection. Enumerate through S3 buckets to find and retrieve flag.txt.
 
 [Visit Scenario Page](https://github.com/xorverbin/CloudRudolf/tree/main/3.CMD-Inj)
+
+---
 
 #### SSTI
 `$ cd 4.SSTI`
 
-Size: Small
+**Size:** Small
 
-Difficulty: Easy
+**Difficulty:** Easy
 
-Summary: You start as an outsider. Exploit web application vulnerable to SSTI using reverse shell. Enumerate and assume iam role to access secretsmanager. Use srcretsmanager to retrieve flag.
+**Summary:** You start as an outsider. Exploit web application vulnerable to SSTI using reverse shell. Enumerate and assume iam role to access secretsmanager. Use srcretsmanager to retrieve flag.
 
 [Visit Scenario Page](https://github.com/xorverbin/CloudRudolf/tree/main/4.SSTI)
 
@@ -60,11 +62,11 @@ Summary: You start as an outsider. Exploit web application vulnerable to SSTI us
 #### JWT
 `$ cd 5.JWT`
 
-Size: Medium
+**Size:** Medium
 
-Difficulty: Moderate
+**Difficulty:** Moderate
 
-Summary: Modulating JWT of user, you can access the admin page and find a textfield where command injection is possible. Obtaining the reverse shell, check the roles and polices assigned to the server. Use the assigned policy to find a function that seems important, and get the value of the secret used in the function.
+**Summary:** Modulating JWT of user, you can access the admin page and find a textfield where command injection is possible. Obtaining the reverse shell, check the roles and polices assigned to the server. Use the assigned policy to find a function that seems important, and get the value of the secret used in the function.
 
 [Visit Scenario Page](https://github.com/xorverbin/CloudRudolf/tree/main/5.JWT)
 
@@ -73,11 +75,11 @@ Summary: Modulating JWT of user, you can access the admin page and find a textfi
 #### FD-SSM
 `$ cd 5.JWT`
 
-Size: Medium
+**Size:** Medium
 
-Difficulty: Moderate
+**Difficulty:** Moderate
 
-Summary: As an outsider, your objective is to retrieve the /.aws/credentials file using the FileDownload vulnerability on the web. By utilizing the run command, you can gain access to a web EC2 shell. Create an AMI image of the FLAG EC2 instance and execute the command.
+**Summary:** As an outsider, your objective is to retrieve the /.aws/credentials file using the FileDownload vulnerability on the web. By utilizing the run command, you can gain access to a web EC2 shell. Create an AMI image of the FLAG EC2 instance and execute the command.
 
 [Visit Scenario Page](https://github.com/xorverbin/CloudRudolf/tree/main/1.FD-SSM)
 
@@ -86,10 +88,10 @@ Summary: As an outsider, your objective is to retrieve the /.aws/credentials fil
 #### SSRF-APIGW
 `$ cd 5.JWT`
 
-Size: Medium
+**Size:** Medium
 
-Difficulty: Moderate
+**Difficulty:** Moderate
 
-Summary: Exploiting SSRF and open redirect vulnerabilities, you can retrieve metadata. Modify a Lambda function to halt CloudTrail and send requests through API Gateway. Utilize the same method to delete an RDS instance
+**Summary:** Exploiting SSRF and open redirect vulnerabilities, you can retrieve metadata. Modify a Lambda function to halt CloudTrail and send requests through API Gateway. Utilize the same method to delete an RDS instance
 
 [Visit Scenario Page](https://github.com/xorverbin/CloudRudolf/tree/main/2.SSRF-APIGW)
