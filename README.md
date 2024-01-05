@@ -13,7 +13,7 @@ WHS 1st Team 먼지 cloud wargame project
 2. AWS CLI -> https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/getting-started-install.html
 
 
-## 👉Whole Development Environment
+## 👉Web Development Environment(ALL)
 
 each scenario has a different environment...
 - <img src="https://img.shields.io/badge/Framework-%23121011?style=for-the-badge"><img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
