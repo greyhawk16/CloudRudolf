@@ -101,14 +101,14 @@ each scenario has a different environment...
 ## ✋Notice
 
 - Before you start, you need to create and register your aws account.
-
-   $ aws configure 
-   AWS Access Key ID [None]: <Key id>
-   AWS Secret Access Key [None]: <Secret Access Key>
-   Default region name [None]: 
-   Default output format [None]:
-
+```
+$ aws configure 
+AWS Access Key ID [None]: <Key id>
+AWS Secret Access Key [None]: <Secret Access Key>
+Default region name [None]: 
+Default output format [None]:
+```
 - When you're done with the scenario, you'll have to destroy the terraform of that scenario. If you don't destroy it, the cost of your aws account will continue to be incurred.
-
-   $ terraform destroy //Remove all resources managed by terraform
-
+```
+$ terraform destroy //Remove all resources managed by terraform
+```
