@@ -18,7 +18,7 @@
 ## Start of Scenario
 
 - Public IP Address of an EC2 server which runs a web application
-- http://printed IP/login.php:80
+- http://printedIP/login.php:80
 
 ## Scenario Goal(s)
 
