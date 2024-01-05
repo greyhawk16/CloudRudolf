@@ -29,5 +29,6 @@ Modulating JWT of user, you can access the admin page and find a textfield where
 
 ## Exploitation Route(s)
 
-![image](https://github.com/chantro/CloudRudolf/assets/108852196/40646001-06ae-4302-8ba9-2707fc74a6c6)
+![image](https://github.com/chantro/CloudRudolf/assets/108852196/99c5fcf1-b488-4c97-8405-e7363940a5e7)
+
 
