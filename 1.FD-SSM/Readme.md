@@ -17,7 +17,7 @@
 ## Start of Scenario
 
 - Public IP Address of an EC2 server which runs a web application
-- http://printed IP:8080
+- http://printedIP:8080
 
 ## Scenario Goal(s)
 
