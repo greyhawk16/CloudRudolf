@@ -17,7 +17,7 @@
 ## Start of Scenario
 
 - Public IP Address of an EC2 server which runs a web application
-- http://printedIP:8080/jwt-login
+- http://{printedIP}:8080/jwt-login
 
 ## Scenario Goal(s)
 
