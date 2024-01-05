@@ -1,0 +1,20 @@
+<!--/admin/batch 는 관리자만이 접근가능합니다 .-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Batch Form</title>
+</head>
+<body>
+<h1>Batch Form</h1>
+<h1><a th:href="|/${loginType}|">[[${pageName}]]</a></h1> <hr/>
+<form method="post" th:action="|@{/{loginType}/admin/batch (loginType=${loginType})}|">
+    <label for="userInput">User Input:</label>
+    <input type="text" id="userInput" name="userInput" required>
+    <button type="submit">Submit</button>
+</form>
+<div th:unless="${userOutput == null}">
+    <p th:text="'User Output: ' + ${userOutput}"></p>
+</div>
+</body>
+</html>
