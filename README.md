@@ -95,3 +95,23 @@ each scenario has a different environment...
 **Summary:** Exploiting SSRF and open redirect vulnerabilities, you can retrieve metadata. Modify a Lambda function to halt CloudTrail and send requests through API Gateway. Utilize the same method to delete an RDS instance
 
 [Visit Scenario Page](https://github.com/xorverbin/CloudRudolf/tree/main/2.SSRF-APIGW)
+
+
+
+
+## ✋Notice
+
+🔑 Before you start, you need to create and register your aws account.
+```
+$ aws configure 
+AWS Access Key ID [None]: <Key id>
+AWS Secret Access Key [None]: <Secret Access Key>
+Default region name [None]: 
+Default output format [None]:
+```
+
+
+💸 When you're done with the scenario, you'll have to destroy the infra of that scenario. If you don't destroy it, the cost of your aws account will continue to be incurred.
+```
+$ terraform destroy //Remove all resources managed by terraform
+```
